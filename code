@@ -1,7 +1,7 @@
 #!/bin/bash
 #Filename: lan_scan.sh
 #Functions: Lan connetion scan
-#Author: Tony
+#Author: Tony3201
 
 network=$1
 time=$(date +%H%M%S)
