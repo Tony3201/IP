@@ -3,6 +3,12 @@
 #Functions: Lan connetion scan
 #Author: Tony3201
 
+if [ $USER != "root" ] # only runs if logged in as root
+then
+ echo "You must be logged in as root." >&2
+ exit 1
+fi
+
 network=$1
 time=$(date +%H%M%S)
 
