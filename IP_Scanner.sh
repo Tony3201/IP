@@ -1,6 +1,6 @@
 #!/bin/bash
-#Filename: lan_scan.sh
-#Functions: Lan connetion scan
+#Filename: IP_scanner.sh
+#Functions: IP scanner
 #Author: Tony3201
 
 if [ $USER != "root" ] # only runs if logged in as root
