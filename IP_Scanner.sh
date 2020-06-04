@@ -1,9 +1,9 @@
 #!/bin/bash
-#Filename: IP_scanner.sh
-#Functions: IP scanner
+#Filename: IPscanner.sh
+#Functions: IP scan
 #Author: Tony3201
 
-if [ $USER != "root" ] # only runs if logged in as root
+if [ $USER != "root" ] 
 then
  echo "You must be logged in as root." >&2
  exit 1
