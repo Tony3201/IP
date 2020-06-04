@@ -19,6 +19,6 @@ do
           arp $network.$i | grep ":" | awk '{print $1,$3}' >> $time.log
           echo "host $network.$i is up" |lolcat
    else
-          echo "host $network.$i is X" |lolcat
+          echo "host $network.$i is X" >/dev/null
    fi
 done
