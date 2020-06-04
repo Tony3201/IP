@@ -17,8 +17,8 @@ do
     ping -c 1 -w 2 $network.$i > /dev/null
     if [ $? -eq 0 ]; then
           arp $network.$i | grep ":" | awk '{print $1,$3}' >> $time.log
-          echo "host $network.$i is up"
+          echo "host $network.$i is up" |lolcat
    else
-          echo "host $network.$i is down"
+          echo "host $network.$i is down" |lolcat
    fi
 done
