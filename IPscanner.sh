@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env bash
 #Filename: IPscanner.sh
 #Functions: IP scan
 #Author: Tony3201
